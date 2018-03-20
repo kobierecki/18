@@ -8,7 +8,7 @@ import UsersList from './UsersList';
 import UserForm from './UserForm';
 
 
-const socket = io('/');
+const socket = io('http://localhost:3000');
 
 class App extends Component {
 	constructor(props) {
